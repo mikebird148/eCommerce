@@ -38,11 +38,20 @@ body {
 
 @import 'layout';
 @import 'header_navbar';
-@import 'auth/sign_in';
-@import 'auth/sign_up';
 @import 'page_title';
 @import 'form_fields';
 @import 'details';
+
+// AUTH
+@import 'auth/sign_in';
+@import 'auth/sign_up';
+
+// ACCOUNT
+
+@import 'account/account';
 @import 'account/purchase-history';
 @import 'account/account-information';
-@import 'account/account';
+
+// SHOP
+
+@import 'shop/shop';
