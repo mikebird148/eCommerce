@@ -6,14 +6,31 @@ import {
 
 import {
     fetchUserPurchases,
-    setPurchaseDetail
+    setPurchaseDetail,
+    fetchCartProducts,
+    addCartProduct
 } from './user';
+
+import {
+    fetchShopCategories,
+    fetchShopProducts,
+    filterProductsWithCategoryId,
+    filterProductsWithQuery
+} from './shop';
 
 export {
     setHeaderLinks,
     setNavbarLinks,
     changeNavbarActive,
+
     fetchUserPurchases,
-    setPurchaseDetail
+    setPurchaseDetail,
+    fetchCartProducts,
+    addCartProduct,
+    
+    fetchShopCategories,
+    fetchShopProducts,
+    filterProductsWithCategoryId,
+    filterProductsWithQuery
 };
 
