@@ -42,26 +42,29 @@ body {
 @import 'form_fields';
 @import 'details';
 
-// AUTH
+// Auth
 @import 'auth/sign_in';
 @import 'auth/sign_up';
 
-// ACCOUNT
-
+// Account
 @import 'account/account';
 @import 'account/purchase-history';
 @import 'account/account-information';
 
-// SHOP
-
+// Shop
 @import 'shop/shop';
 @import 'shop/shop-search-bar';
 @import 'shop/shop-product';
 
-// CART
+// Cart
 @import 'shop/shop-cart';
 @import 'shop/cart-product';
 
-// QUANTITY
+// Quantity
 @import 'quantity';
 @import 'green-price-tag';
+
+// Review
+@import 'order/review';
+@import 'order/reviewForm';
+@import 'order/reviewProduct';
